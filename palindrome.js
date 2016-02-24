@@ -10,7 +10,7 @@
 
 function va(str) {
   str = str.toLowerCase().replace(/[\W_]/g, '');
-  var strN = str.toLowerCase().replace(/[\W_]/g, '').split('').reverse().join('');
+  var strN = str.split('').reverse().join('');
   if (str === strN) {
     console.log("yes we found 'The P thing'");
   }else{
