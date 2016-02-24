@@ -12,9 +12,9 @@ function va(str) {
   str = str.toLowerCase().replace(/[\W_]/g, '');
   var strN = str.split('').reverse().join('');
   if (str === strN) {
-    console.log("yes we found 'The P thing'");
+    console.log("yes Palindrome");
   }else{
-    console.log("this does not look like 'The P thing'");
+    console.log("Not a Palindrome");
   }
 }
 
